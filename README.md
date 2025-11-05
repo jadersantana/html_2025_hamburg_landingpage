@@ -97,5 +97,5 @@ scripts\sync_s3_and_invalidate.bat
 
 ---
 
-📌 *Este README utiliza layout bilíngue lado a lado para apresentação profissional, ideal para demonstrar o projeto em entrevistas ou propostas.*
+📌 *Documentation available in Portuguese and English.*
 
