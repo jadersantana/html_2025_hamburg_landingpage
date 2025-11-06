@@ -1,3 +1,6 @@
+:: Requires AWS CLI configured locally with an IAM user or role.
+:: No credentials stored in this repository.
+
 @echo off
 echo ============================
 echo STARTING S3 SYNC PROCESS...
