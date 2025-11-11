@@ -8,7 +8,7 @@ echo ============================
 echo.
 
 :: Run S3 sync and store output in a temp file
-aws s3 sync "G:/My Drive/Github/html_2025_hamburg_landingpage/web" s3://hamburgcap.com/ --delete > "..\logs\sync_output.txt" 2>&1
+aws s3 sync "G:/My Drive/Github/html-2025-hamburg-landingpage/web" s3://hamburgcap.com/ --delete > "..\logs\sync_output.txt" 2>&1
 
 :: Check if there were changes (file is not empty)
 for %%A in ("..\logs\sync_output.txt") do if %%~zA NEQ 0 (
